@@ -70,3 +70,11 @@ const time = new Date().toLocaleString();
 const currentTime = document.querySelector(".time");
 
 currentTime.innerHTML = `<h6 class="time">${time}</h6>`;
+
+const ram = () => {
+  for (let i = 0; i <= 5; i++) {
+    const val = i;
+  }
+};
+
+ram();
