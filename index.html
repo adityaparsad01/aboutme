@@ -2,40 +2,146 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
-        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous" />
-
-    <title>Hello, world!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/js/all.js"
+        integrity="sha512-OYp5mM4AvmnnoCaUV4GlTtiryWACoM4a3vrZ0KmNeK6FweSBFzSRQDC/XQQjnWbA7Ou823h2J6brqBX5Eo5rcw=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css" />
 </head>
 
 <body>
-    <div class="d-flex p-2 bd-highlight justify-content-between">
-        <h1 class=" text-capitalize text-success">About Me</h1>
-        <div class="time"></div>
-    </div>
-    <!-- <div class="name"></div> -->
-
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Name
-        </button>
-        <div class="dropdown-menu name" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
+    <header class="header">
+        <!--first child-->
+        <nav class="nav">
+        </nav>
+        <!--first child-->
+        <section class="banner">
+            <!--banner container-->
+            <div class="banner__cantainer">
+                <h1 class="banner__title">i'm claver techie</h1>
+                <h1 class="banner__jobs">
+                    developer
+                    <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                    designer
+                    <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                    photographer
+                </h1>
+            </div>
+        </section>
+    </header>
+    <!--End Header-->
+    <!--about section-->
+    <section class="about">
+        <div class="about__center">
+            <artical class="about-img">
+                <img src="img/profile.jpeg" alt="" class="about-img__photo" />
+            </artical>
+            <artical class="about-info">
+                <div class="about-info__container">
+                    <h1 class="about-info__title">about me</h1>
+                    <p class="about-info__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
+                        quisquam incidunt commodi aspernatur voluptatum vero doloremque
+                        ratione eum repellendus consequatur.
+                    </p>
+                    <div class="about-info__links">
+                        <a href="#" class="about-info__single-link dark-btn">hire me</a>
+                        <a href="#" class="about-info__single-link light-btn">Download CV</a>
+                    </div>
+                </div>
+            </artical>
         </div>
-    </div>
+    </section>
+    <!--End about section-->
 
-    <div class="question bg-light p-4"></div>
+    <!--Services section-->
 
-    <script src="App.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
-        integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous">
-    </script>
+    <section class="services">
+        <!--section Title-->
+        <div class="section-title">
+            <h1 class="section-title__name">services</h1>
+        </div>
+        <!--End section Title-->
+        <div class="services__center">
+            <!--single service-->
+            <artical class="services__single-service">
+                <div class="services__single-service-icon">
+                    <i class="fas fa-calendar-check"></i>
+                </div>
+                <h1 class="services__single-service-title">punctual</h1>
+                <p class="services__single-service-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
+                    libero?
+                </p>
+            </artical>
+            <!--End single service-->
+            <!--single service-->
+            <artical class="services__single-service">
+                <div class="services__single-service-icon">
+                    <i class="fas fa-rocket    "></i>
+                </div>
+                <h1 class="services__single-service-title">creativity</h1>
+                <p class="services__single-service-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
+                    libero?
+                </p>
+            </artical>
+            <!--End single service-->
+            <!--single service-->
+            <artical class="services__single-service">
+                <div class="services__single-service-icon">
+                    <i class="fas fa-mobile"></i>
+                </div>
+                <h1 class="services__single-service-title">responsice design</h1>
+                <p class="services__single-service-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
+                    libero?
+                </p>
+            </artical>
+            <!--End single service-->
+            <!--single service-->
+            <artical class="services__single-service">
+                <div class="services__single-service-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h1 class="services__single-service-title">Hardwork</h1>
+                <p class="services__single-service-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
+                    libero?
+                </p>
+            </artical>
+            <!--End single service-->
+            <!--single service-->
+            <artical class="services__single-service">
+                <div class="services__single-service-icon">
+                    <i class="fas fa-laptop    "></i>
+                </div>
+                <h1 class="services__single-service-title">development</h1>
+                <p class="services__single-service-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
+                    libero?
+                </p>
+            </artical>
+            <!--End single service-->
+            <!--single service-->
+            <artical class="services__single-service">
+                <div class="services__single-service-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h1 class="services__single-service-title">photographer</h1>
+                <p class="services__single-service-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
+                    libero?
+                </p>
+            </artical>
+            <!--End single service-->
+        </div>
+    </section>
+    <!--End services section-->
+
+    <script src="script.js"></script>
 </body>
 
 </html>
